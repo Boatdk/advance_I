@@ -1,0 +1,15 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "com" LOC = P131;
+NET "i[0]" LOC = P25;
+NET "i[1]" LOC = P24;
+NET "i[2]" LOC = P23;
+NET "i[3]" LOC = P21;
+NET "o[0]" LOC = P4;
+NET "o[1]" LOC = P2;
+NET "o[2]" LOC = P1;
+NET "o[3]" LOC = P141;
+NET "o[4]" LOC = P140;
+NET "o[5]" LOC = P137;
+NET "o[6]" LOC = P135;

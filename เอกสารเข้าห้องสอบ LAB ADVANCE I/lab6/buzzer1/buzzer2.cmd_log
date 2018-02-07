@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/comeng/Desktop/lab6/buzzer1/buzzer2.v -lang verilog -prj buzzer1 -o buzzer2.spl -module buzzer2 -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 buzzer2.spl C:/Users/comeng/Desktop/lab6/buzzer1/buzzer2.sym 

@@ -1,0 +1,18 @@
+
+
+NET "x[0]" LOC = P20;
+NET "x[1]" LOC = P18;
+NET "x[2]" LOC = P17;
+NET "x[3]" LOC = P15;
+NET "y[0]" LOC = P25;
+NET "y[1]" LOC = P24;
+NET "y[2]" LOC = P23;
+NET "y[3]" LOC = P21;
+NET "z[0]" LOC = P35;
+NET "z[1]" LOC = P33;
+NET "z[2]" LOC = P32;
+NET "z[3]" LOC = P31;
+NET "z[4]" LOC = P30;
+
+
+NET "y[0]" DRIVE = 12;

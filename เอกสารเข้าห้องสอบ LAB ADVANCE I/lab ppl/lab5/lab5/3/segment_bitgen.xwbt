@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\comeng\Desktop\lab5\segment\segment.ncd
+OUTFILE=C:\Users\comeng\Desktop\lab5\segment\segment.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=C:\Users\comeng\Desktop\lab5\segment
+LICENSE=WebPack
+USER_INFO=210759235_0_0_411

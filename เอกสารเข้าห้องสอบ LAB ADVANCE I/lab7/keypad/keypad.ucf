@@ -1,0 +1,22 @@
+
+
+NET "clk" LOC = P127;
+NET "column[0]" LOC = P104; //io pin 9
+NET "column[1]" LOC = P105; //io pin 7
+NET "column[2]" LOC = P107; //io pin 5
+NET "common" LOC = P5; //7sigment at 1
+NET "display[0]" LOC = P135; //g
+NET "display[1]" LOC = P137; //f
+NET "display[2]" LOC = P140; //e
+NET "display[3]" LOC = P141; //d
+NET "display[4]" LOC = P1; //c
+NET "display[5]" LOC = P2; //b
+NET "display[6]" LOC = P4; //a
+NET "row[0]" LOC = P108; //io pin 3
+NET "row[1]" LOC = P112; //io pin 1
+NET "row[2]" LOC = P100; //io pin 15
+NET "row[3]" LOC = P102; //io pin 13
+
+# PlanAhead Generated IO constraints 
+
+

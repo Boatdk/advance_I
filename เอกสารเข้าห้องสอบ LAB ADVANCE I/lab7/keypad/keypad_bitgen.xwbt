@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\088\lab7\keypad\keypad.ncd
+OUTFILE=D:\088\lab7\keypad\keypad.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=D:\088\lab7\keypad
+LICENSE=WebPack
+USER_INFO=210759235_0_0_932

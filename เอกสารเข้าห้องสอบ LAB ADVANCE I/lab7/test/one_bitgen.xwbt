@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=J:\lab7\test\one.ncd
+OUTFILE=J:\lab7\test\one.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=J:\lab7\test
+LICENSE=WebPack
+USER_INFO=210759235_0_0_411

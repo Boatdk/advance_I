@@ -1,0 +1,76 @@
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.xst" -ofn "C:/Users/comeng/Desktop/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "D:/088/lab6/buzzer2/buzzer2.xst" -ofn "D:/088/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 
+xst -intstyle ise -ifn "J:/088/lab6/buzzer2/buzzer2.xst" -ofn "J:/088/lab6/buzzer2/buzzer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc buzzer2.ucf -p xc3s200-tq144-4 buzzer2.ngc buzzer2.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o buzzer2_map.ncd buzzer2.ngd buzzer2.pcf 
+par -w -intstyle ise -ol high -t 1 buzzer2_map.ncd buzzer2.ncd buzzer2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buzzer2.twx buzzer2.ncd -o buzzer2.twr buzzer2.pcf -ucf buzzer2.ucf 
+bitgen -intstyle ise -f buzzer2.ut buzzer2.ncd 

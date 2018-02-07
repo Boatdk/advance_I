@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 27 23:42:37 2017
+
+drc -z adderpraw.ncd adderpraw.pcf
+
+DRC detected 0 errors and 0 warnings.

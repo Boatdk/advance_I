@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Tue Oct 18 12:17:28 2016
+# Process ID: 3224
+# Log file: C:/Users/comeng/Desktop/lab5/couter4/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/comeng/Desktop/lab5/couter4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Desktop/lab5/couter4/pa.fromHdl.tcl
+startgroup
+set_property loc PAD189 [get_ports {segment[0]}]
+endgroup
+startgroup
+set_property loc PAD195 [get_ports {segment[1]}]
+endgroup
+startgroup
+set_property loc PAD196 [get_ports {segment[2]}]
+endgroup
+startgroup
+set_property loc PAD2 [get_ports {segment[3]}]
+endgroup
+startgroup
+set_property loc PAD3 [get_ports {segment[4]}]
+endgroup
+startgroup
+set_property loc PAD12 [get_ports {segment[5]}]
+endgroup
+startgroup
+set_property loc PAD13 [get_ports {segment[6]}]
+endgroup
+startgroup
+set_property loc PAD25 [get_ports clk]
+endgroup
+startgroup
+set_property loc PAD20 [get_ports com]
+endgroup
+startgroup
+set_property loc PAD164 [get_ports mode]
+endgroup
+save_design
+exit
+stop_gui

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Mon Nov 27 22:46:18 2017
+# Process ID: 1152
+# Log file: J:/088/lab7/keypad/planAhead_run_1/planAhead.log
+# Journal file: J:/088/lab7/keypad/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source J:/088/lab7/keypad/pa.fromNetlist.tcl

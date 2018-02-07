@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="alarm.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="alarm.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="alarm.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alarm.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="alarm.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="alarm.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alarm_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alarm_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alarm_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="alarmtwodigit.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="alarmtwodigit.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="alarmtwodigit.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="alarmtwodigit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="alarmtwodigit.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="alarmtwodigit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="alarmtwodigit.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="alarmtwodigit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="alarmtwodigit.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="alarmtwodigit.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="alarmtwodigit.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="alarmtwodigit.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="alarmtwodigit.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alarmtwodigit.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="alarmtwodigit.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="alarmtwodigit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="alarmtwodigit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="alarmtwodigit.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="alarmtwodigit.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="alarmtwodigit.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="alarmtwodigit.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="alarmtwodigit.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="alarmtwodigit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alarmtwodigit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="alarmtwodigit_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="alarmtwodigit_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="alarmtwodigit_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="alarmtwodigit_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="alarmtwodigit_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alarmtwodigit_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alarmtwodigit_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="alarmtwodigit_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="alarmtwodigit_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alarmtwodigit_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="alarmtwodigit_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="alarmtwodigit_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="alarmtwodigit_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="alarmtwodigit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1508818607" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1508818607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508819969" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="151806172158841511" xil_pn:start_ts="1508819969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508819969" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7490462065117719622" xil_pn:start_ts="1508819969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508818607" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1508818607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508819969" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7874613049448922351" xil_pn:start_ts="1508819969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508818607" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1110319057744218877" xil_pn:start_ts="1508818607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1508819969" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1546800516591248656" xil_pn:start_ts="1508819969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794777" xil_pn:in_ck="129618266929" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-4267595321685276474" xil_pn:start_ts="1511794767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.lso"/>
+      <outfile xil_pn:name="alarmtwodigit.ngc"/>
+      <outfile xil_pn:name="alarmtwodigit.ngr"/>
+      <outfile xil_pn:name="alarmtwodigit.prj"/>
+      <outfile xil_pn:name="alarmtwodigit.stx"/>
+      <outfile xil_pn:name="alarmtwodigit.syr"/>
+      <outfile xil_pn:name="alarmtwodigit.xst"/>
+      <outfile xil_pn:name="alarmtwodigit_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1511793555" xil_pn:in_ck="4185325049308662436" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6986543933680860902" xil_pn:start_ts="1511793555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794784" xil_pn:in_ck="5137903821087612866" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7097055673487858980" xil_pn:start_ts="1511794777">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.bld"/>
+      <outfile xil_pn:name="alarmtwodigit.ngd"/>
+      <outfile xil_pn:name="alarmtwodigit_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794791" xil_pn:in_ck="8029252195019047395" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-2445049779091787521" xil_pn:start_ts="1511794784">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.pcf"/>
+      <outfile xil_pn:name="alarmtwodigit_map.map"/>
+      <outfile xil_pn:name="alarmtwodigit_map.mrp"/>
+      <outfile xil_pn:name="alarmtwodigit_map.ncd"/>
+      <outfile xil_pn:name="alarmtwodigit_map.ngm"/>
+      <outfile xil_pn:name="alarmtwodigit_map.xrpt"/>
+      <outfile xil_pn:name="alarmtwodigit_summary.xml"/>
+      <outfile xil_pn:name="alarmtwodigit_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794802" xil_pn:in_ck="2590899575518194972" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1511794791">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.ncd"/>
+      <outfile xil_pn:name="alarmtwodigit.pad"/>
+      <outfile xil_pn:name="alarmtwodigit.par"/>
+      <outfile xil_pn:name="alarmtwodigit.ptwx"/>
+      <outfile xil_pn:name="alarmtwodigit.unroutes"/>
+      <outfile xil_pn:name="alarmtwodigit.xpi"/>
+      <outfile xil_pn:name="alarmtwodigit_pad.csv"/>
+      <outfile xil_pn:name="alarmtwodigit_pad.txt"/>
+      <outfile xil_pn:name="alarmtwodigit_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794816" xil_pn:in_ck="4185325049308654811" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1511794802">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.bgn"/>
+      <outfile xil_pn:name="alarmtwodigit.bit"/>
+      <outfile xil_pn:name="alarmtwodigit.drc"/>
+      <outfile xil_pn:name="alarmtwodigit.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1511799465" xil_pn:in_ck="4185325049308641957" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="-6864680952955714571" xil_pn:start_ts="1511799464">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511794802" xil_pn:in_ck="-4693851689739278113" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1511794799">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="alarmtwodigit.twr"/>
+      <outfile xil_pn:name="alarmtwodigit.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

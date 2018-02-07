@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "D:/17/assignment/musicpad.xst" -ofn "D:/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s500e-fg320-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Downloads/17/17/assignment/musicpad.xst" -ofn "C:/Users/comeng/Downloads/17/17/assignment/musicpad.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc musicpad.ucf -p xc3s200-tq144-4 musicpad.ngc musicpad.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o musicpad_map.ncd musicpad.ngd musicpad.pcf 
+par -w -intstyle ise -ol high -t 1 musicpad_map.ncd musicpad.ncd musicpad.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml musicpad.twx musicpad.ncd -o musicpad.twr musicpad.pcf -ucf musicpad.ucf 
+bitgen -intstyle ise -f musicpad.ut musicpad.ncd 

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Mon Nov 27 22:49:55 2017
+# Process ID: 2148
+# Log file: C:/Users/comeng/Downloads/17/17/assignment/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/comeng/Downloads/17/17/assignment/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Downloads/17/17/assignment/pa.fromNetlist.tcl
+startgroup
+set_property loc PAD60 [get_ports {column[0]}]
+endgroup
+startgroup
+set_property loc PAD59 [get_ports {column[1]}]
+endgroup
+startgroup
+set_property loc PAD52 [get_ports {column[2]}]
+endgroup
+startgroup
+set_property loc PAD51 [get_ports {row[0]}]
+endgroup
+startgroup
+set_property loc PAD50 [get_ports {row[1]}]
+endgroup
+startgroup
+set_property loc PAD63 [get_ports {row[2]}]
+endgroup
+startgroup
+set_property loc PAD62 [get_ports {row[3]}]
+endgroup
+startgroup
+set_property loc PAD25 [get_ports clk]
+endgroup
+startgroup
+set_property loc PAD29 [get_ports sp]
+endgroup
+save_design
+exit
+stop_gui

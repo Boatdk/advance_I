@@ -1,0 +1,31 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/comeng/Desktop/lab7/lab7/keypad/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/comeng/Desktop/lab7/lab7/keypad/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "keypad.v" in library work
+Module <keypad> compiled
+ERROR:HDLCompilers:26 - "keypad.v" line 56 expecting 'endmodule', found 'EOF'
+Analysis of file <".prj"> failed.
+--> 
+
+Total memory usage is 167028 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

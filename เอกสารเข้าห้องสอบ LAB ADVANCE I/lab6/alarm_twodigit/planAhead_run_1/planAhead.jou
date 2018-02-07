@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Tue Oct 25 12:39:13 2016
+# Process ID: 1260
+# Log file: F:/lab6/alarm_twodigit/planAhead_run_1/planAhead.log
+# Journal file: F:/lab6/alarm_twodigit/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/lab6/alarm_twodigit/pa.fromHdl.tcl
+exit
+stop_gui

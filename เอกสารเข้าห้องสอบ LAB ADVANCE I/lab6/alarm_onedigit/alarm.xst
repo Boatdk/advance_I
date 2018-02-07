@@ -1,0 +1,5 @@
+set -tmpdir "D:/088/lab6/alarm_onedigit/xst/projnav.tmp"
+set -xsthdpdir "D:/088/lab6/alarm_onedigit/xst"
+elaborate
+-ifn alarm.prj
+-ifmt mixed

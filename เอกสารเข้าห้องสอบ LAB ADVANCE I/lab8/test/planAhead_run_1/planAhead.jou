@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Sat Nov 26 14:27:03 2016
+# Process ID: 2228
+# Log file: F:/lab8/test/planAhead_run_1/planAhead.log
+# Journal file: F:/lab8/test/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/lab8/test/pa.fromNetlist.tcl

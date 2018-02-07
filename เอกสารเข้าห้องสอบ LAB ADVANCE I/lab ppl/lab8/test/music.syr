@@ -1,0 +1,397 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: music.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "music.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "music"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-tq144
+
+---- Source Options
+Top Module Name                    : music
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dd.v" in library work
+Module <music> compiled
+No errors in compilation
+Analysis of file <"music.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <music> in library <work> with parameters.
+	doo = "00000000000000001011101001011101"
+	fa = "00000000000000001000101111101000"
+	la = "00000000000000000110111011111001"
+	mi = "00000000000000001001001111110110"
+	re = "00000000000000001010011000010101"
+	si = "00000000000000000110001011010111"
+	sol = "00000000000000000111110010001111"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <music>.
+	doo = 32'sb00000000000000001011101001011101
+	fa = 32'sb00000000000000001000101111101000
+	la = 32'sb00000000000000000110111011111001
+	mi = 32'sb00000000000000001001001111110110
+	re = 32'sb00000000000000001010011000010101
+	si = 32'sb00000000000000000110001011010111
+	sol = 32'sb00000000000000000111110010001111
+WARNING:Xst:905 - "dd.v" line 43: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <onoff>, <note>, <s_do>
+Module <music> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <music>.
+    Related source file is "dd.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <sp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit up counter for signal <cnt>.
+    Found 32-bit down counter for signal <cnt1>.
+    Found 32-bit down counter for signal <cnt2>.
+    Found 32-bit down counter for signal <cnt3>.
+    Found 32-bit down counter for signal <cnt4>.
+    Found 32-bit down counter for signal <cnt5>.
+    Found 32-bit down counter for signal <cnt6>.
+    Found 32-bit down counter for signal <cnt7>.
+    Found 1-bit register for signal <s_do>.
+    Found 1-bit register for signal <s_fa>.
+    Found 1-bit register for signal <s_la>.
+    Found 1-bit register for signal <s_mi>.
+    Found 1-bit register for signal <s_re>.
+    Found 1-bit register for signal <s_si>.
+    Found 1-bit register for signal <s_sol>.
+    Found 6-bit up counter for signal <state>.
+    Summary:
+	inferred   9 Counter(s).
+	inferred   7 D-type flip-flop(s).
+Unit <music> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 9
+ 32-bit down counter                                   : 7
+ 32-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit down counter                                   : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <music> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block music, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : music.ngr
+Top Level Output File Name         : music
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 117
+#      GND                         : 1
+#      INV                         : 33
+#      LUT1                        : 1
+#      LUT4                        : 10
+#      MUXCY                       : 39
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 34
+#      FDE                         : 1
+#      FDR                         : 23
+#      FDS                         : 9
+#      LDC                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 8
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200tq144-4 
+
+ Number of Slices:                       24  out of   1920     1%  
+ Number of Slice Flip Flops:             33  out of   3840     0%  
+ Number of 4 input LUTs:                 44  out of   3840     1%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of     97    10%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 33    |
+sp_cmp_eq0000(sp_cmp_eq0000:O)     | NONE(*)(sp)            | 1     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+sp_0_not0000(sp_0_not00001_INV_0:O)| NONE(sp)               | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.537ns (Maximum Frequency: 152.979MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.078ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.537ns (frequency: 152.979MHz)
+  Total number of paths / destination ports: 1585 / 66
+-------------------------------------------------------------------------
+Delay:               6.537ns (Levels of Logic = 9)
+  Source:            cnt1_8 (FF)
+  Destination:       cnt1_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cnt1_8 to cnt1_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.720   1.216  cnt1_8 (cnt1_8)
+     LUT4:I0->O            1   0.551   0.000  cnt1_cmp_eq0000_wg_lut<0> (cnt1_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  cnt1_cmp_eq0000_wg_cy<0> (cnt1_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<1> (cnt1_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<2> (cnt1_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<3> (cnt1_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<4> (cnt1_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<5> (cnt1_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  cnt1_cmp_eq0000_wg_cy<6> (cnt1_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.281   1.859  cnt1_cmp_eq0000_wg_cy<7> (cnt1_cmp_eq0000_wg_cy<7>)
+     FDR:R                     1.026          cnt1_1
+    ----------------------------------------
+    Total                      6.537ns (3.462ns logic, 3.075ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sp_cmp_eq0000'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.078ns (Levels of Logic = 1)
+  Source:            sp (LATCH)
+  Destination:       speaker (PAD)
+  Source Clock:      sp_cmp_eq0000 falling
+
+  Data Path: sp to speaker
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.633   0.801  sp (sp)
+     OBUF:I->O                 5.644          speaker_OBUF (speaker)
+    ----------------------------------------
+    Total                      7.078ns (6.277ns logic, 0.801ns route)
+                                       (88.7% logic, 11.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.37 secs
+ 
+--> 
+
+Total memory usage is 198676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/segment/segment.xst" -ofn "C:/Users/comeng/Desktop/lab5/segment/segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segment.ucf -p xc3s200-tq144-4 segment.ngc segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o segment_map.ncd segment.ngd segment.pcf 
+par -w -intstyle ise -ol high -t 1 segment_map.ncd segment.ncd segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml segment.twx segment.ncd -o segment.twr segment.pcf -ucf segment.ucf 
+bitgen -intstyle ise -f segment.ut segment.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/segment/segment.xst" -ofn "C:/Users/comeng/Desktop/lab5/segment/segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segment.ucf -p xc3s200-tq144-4 segment.ngc segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o segment_map.ncd segment.ngd segment.pcf 
+par -w -intstyle ise -ol high -t 1 segment_map.ncd segment.ncd segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml segment.twx segment.ncd -o segment.twr segment.pcf -ucf segment.ucf 
+bitgen -intstyle ise -f segment.ut segment.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/segment/segment.xst" -ofn "C:/Users/comeng/Desktop/lab5/segment/segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segment.ucf -p xc3s200-tq144-4 segment.ngc segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o segment_map.ncd segment.ngd segment.pcf 
+par -w -intstyle ise -ol high -t 1 segment_map.ncd segment.ncd segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml segment.twx segment.ncd -o segment.twr segment.pcf -ucf segment.ucf 
+bitgen -intstyle ise -f segment.ut segment.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/segment/segment.xst" -ofn "C:/Users/comeng/Desktop/lab5/segment/segment.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segment.ucf -p xc3s200-tq144-4 segment.ngc segment.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o segment_map.ncd segment.ngd segment.pcf 
+par -w -intstyle ise -ol high -t 1 segment_map.ncd segment.ncd segment.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml segment.twx segment.ncd -o segment.twr segment.pcf -ucf segment.ucf 
+bitgen -intstyle ise -f segment.ut segment.ncd 

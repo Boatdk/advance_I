@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "F:/lab8/test/music.xst" -ofn "F:/lab8/test/music.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 music.ngc music.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o music_map.ncd music.ngd music.pcf 
+par -w -intstyle ise -ol high -t 1 music_map.ncd music.ncd music.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc music.ucf -p xc3s200-tq144-4 music.ngc music.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o music_map.ncd music.ngd music.pcf 
+par -w -intstyle ise -ol high -t 1 music_map.ncd music.ncd music.pcf 
+bitgen -intstyle ise -f music.ut music.ncd 

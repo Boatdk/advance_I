@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Tue Oct 18 09:57:07 2016
+# Process ID: 2980
+# Log file: C:/Users/comeng/Desktop/lab5/lab5/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/comeng/Desktop/lab5/lab5/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Desktop/lab5/lab5/pa.fromHdl.tcl
+exit
+stop_gui

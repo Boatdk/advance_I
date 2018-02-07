@@ -1,0 +1,14 @@
+ISim log file
+Running: J:\lab5\lab5\test\tb_ttt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb J:/lab5/lab5/test/tb_ttt_isim_beh.wdb 
+ISim O.87xd (signature 0x2f00eba5)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "J:/lab5/lab5/test/tb_ttt.v" Line 31.  For instance tb_ttt/uut/, width 4 of formal port o is not equal to width 3 of actual signal o.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

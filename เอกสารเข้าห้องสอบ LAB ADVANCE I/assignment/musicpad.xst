@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/comeng/Downloads/17/17/assignment/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/comeng/Downloads/17/17/assignment/xst"
+elaborate
+-ifn musicpad.prj
+-ifmt mixed

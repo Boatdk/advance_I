@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/siren.xst" -ofn "D:/lab6/siren/siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/Siren.xst" -ofn "D:/lab6/siren/Siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/Siren.xst" -ofn "D:/lab6/siren/Siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/Siren.xst" -ofn "D:/lab6/siren/Siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/Siren.xst" -ofn "D:/lab6/siren/Siren.syr" 
+xst -intstyle ise -ifn "D:/lab6/siren/Siren.xst" -ofn "D:/lab6/siren/Siren.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Siren.ucf -p xc3s200-tq144-4 Siren.ngc Siren.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o Siren_map.ncd Siren.ngd Siren.pcf 
+par -w -intstyle ise -ol high -t 1 Siren_map.ncd Siren.ncd Siren.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Siren.twx Siren.ncd -o Siren.twr Siren.pcf -ucf Siren.ucf 
+bitgen -intstyle ise -f Siren.ut Siren.ncd 

@@ -1,0 +1,22 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o J:/lab5/lab5/1/tb_counter_isim_beh.exe -prj J:/lab5/lab5/1/tb_counter_beh.prj work.tb_counter work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "J:/lab5/lab5/1/counter.v" into library work
+Analyzing Verilog file "J:/lab5/lab5/1/tb_counter.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "J:/lab5/lab5/1/tb_counter.v" Line 36: Size mismatch in connection of port <o>. Formal port size is 4-bit while actual signal size is 3-bit.
+Completed static elaboration
+Fuse Memory Usage: 104212 KB
+Fuse CPU Usage: 264 ms
+Compiling module counter
+Compiling module tb_counter
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable J:/lab5/lab5/1/tb_counter_isim_beh.exe
+Fuse Memory Usage: 108800 KB
+Fuse CPU Usage: 343 ms

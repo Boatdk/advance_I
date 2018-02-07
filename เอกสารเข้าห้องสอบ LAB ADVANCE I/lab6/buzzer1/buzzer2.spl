@@ -1,0 +1,9 @@
+[Inputs]
+clk
+onoff
+[Outputs]
+sp
+[BiDir]
+[ATTRIBUTES]
+VeriModel buzzer2
+

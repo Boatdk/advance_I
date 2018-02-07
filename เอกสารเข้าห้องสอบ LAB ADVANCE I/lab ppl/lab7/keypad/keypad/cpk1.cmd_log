@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.xst" -ofn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keypad.ucf -p xc3s200-tq144-4 cpk1.ngc cpk1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keypad.ucf -p xc3s200-tq144-4 cpk1.ngc cpk1.ngd  
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.xst" -ofn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keypad.ucf -p xc3s200-tq144-4 cpk1.ngc cpk1.ngd  
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.xst" -ofn "C:/Users/comeng/Desktop/lab7/keypad/keypad/cpk1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keypad.ucf -p xc3s200-tq144-4 cpk1.ngc cpk1.ngd  

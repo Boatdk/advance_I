@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc couter4.ucf -p xc3s200-tq144-4 couter4.ngc couter4.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o couter4_map.ncd couter4.ngd couter4.pcf 
+par -w -intstyle ise -ol high -t 1 couter4_map.ncd couter4.ncd couter4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml couter4.twx couter4.ncd -o couter4.twr couter4.pcf -ucf couter4.ucf 
+bitgen -intstyle ise -f couter4.ut couter4.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc couter4.ucf -p xc3s200-tq144-4 couter4.ngc couter4.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o couter4_map.ncd couter4.ngd couter4.pcf 
+par -w -intstyle ise -ol high -t 1 couter4_map.ncd couter4.ncd couter4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml couter4.twx couter4.ncd -o couter4.twr couter4.pcf -ucf couter4.ucf 
+bitgen -intstyle ise -f couter4.ut couter4.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/lab5/couter4/couter4.xst" -ofn "C:/Users/comeng/Desktop/lab5/couter4/couter4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc couter4.ucf -p xc3s200-tq144-4 couter4.ngc couter4.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o couter4_map.ncd couter4.ngd couter4.pcf 
+par -w -intstyle ise -ol high -t 1 couter4_map.ncd couter4.ncd couter4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml couter4.twx couter4.ncd -o couter4.twr couter4.pcf -ucf couter4.ucf 
+bitgen -intstyle ise -f couter4.ut couter4.ncd 
+xst -intstyle ise -ifn "J:/lab5/lab5/4/couter4.xst" -ofn "J:/lab5/lab5/4/couter4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc couter4.ucf -p xc3s200-tq144-4 couter4.ngc couter4.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o couter4_map.ncd couter4.ngd couter4.pcf 
+par -w -intstyle ise -ol high -t 1 couter4_map.ncd couter4.ncd couter4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml couter4.twx couter4.ncd -o couter4.twr couter4.pcf -ucf couter4.ucf 
+bitgen -intstyle ise -f couter4.ut couter4.ncd 

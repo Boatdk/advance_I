@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Tue Oct 18 11:43:09 2016
+# Process ID: 3488
+# Log file: C:/Users/comeng/Desktop/lab5/segment/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/comeng/Desktop/lab5/segment/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Desktop/lab5/segment/pa.fromHdl.tcl
+startgroup
+set_property loc PAD164 [get_ports {i[0]}]
+endgroup
+startgroup
+set_property loc PAD165 [get_ports {i[1]}]
+endgroup
+startgroup
+set_property loc PAD166 [get_ports {i[2]}]
+endgroup
+startgroup
+set_property loc PAD171 [get_ports {i[3]}]
+endgroup
+set_property loc "" [get_ports [list  {o[0]}]]
+startgroup
+set_property loc PAD20 [get_ports com]
+endgroup
+startgroup
+set_property loc PAD189 [get_ports {o[0]}]
+endgroup
+startgroup
+set_property loc PAD195 [get_ports {o[1]}]
+endgroup
+startgroup
+set_property loc PAD196 [get_ports {o[2]}]
+endgroup
+startgroup
+set_property loc PAD2 [get_ports {o[3]}]
+endgroup
+startgroup
+set_property loc PAD3 [get_ports {o[4]}]
+endgroup
+startgroup
+set_property loc PAD12 [get_ports {o[5]}]
+endgroup
+startgroup
+set_property loc PAD13 [get_ports {o[6]}]
+endgroup
+save_design
+exit
+stop_gui

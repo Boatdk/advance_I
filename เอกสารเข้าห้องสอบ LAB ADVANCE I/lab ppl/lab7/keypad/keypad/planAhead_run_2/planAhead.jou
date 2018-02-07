@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Thu Nov 09 11:30:28 2017
+# Process ID: 4656
+# Log file: C:/Users/comeng/Desktop/lab7/keypad/keypad/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/comeng/Desktop/lab7/keypad/keypad/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Desktop/lab7/keypad/keypad/pa.fromHdl.tcl
+exit
+stop_gui

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dd.ucf -p xc3s200-tq144-4 dd.ngc dd.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o dd_map.ncd dd.ngd dd.pcf 
+par -w -intstyle ise -ol high -t 1 dd_map.ncd dd.ncd dd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dd.twx dd.ncd -o dd.twr dd.pcf -ucf dd.ucf 
+bitgen -intstyle ise -f dd.ut dd.ncd 
+xst -intstyle ise -ifn "F:/lab8/test/dd.xst" -ofn "F:/lab8/test/dd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dd.ucf -p xc3s200-tq144-4 dd.ngc dd.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o dd_map.ncd dd.ngd dd.pcf 
+par -w -intstyle ise -ol high -t 1 dd_map.ncd dd.ncd dd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dd.twx dd.ncd -o dd.twr dd.pcf -ucf dd.ucf 
+bitgen -intstyle ise -f dd.ut dd.ncd 

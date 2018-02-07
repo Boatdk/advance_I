@@ -1,0 +1,253 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml dd.twx dd.ncd -o dd.twr dd.pcf -ucf dd.ucf
+
+Design file:              dd.ncd
+Physical constraint file: dd.pcf
+Device,package,speed:     xc3s200,tq144,-4 (PRODUCTION 1.39 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock note<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   13.517(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   14.372(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   13.549(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<3> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   13.528(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<4> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   14.167(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<5> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   13.240(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock note<6> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   13.654(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock onoff to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+speaker     |   12.647(F)|sp_not0001        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.778|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.197|    3.197|
+note<1>        |         |         |    1.879|    1.879|
+note<2>        |         |         |    2.266|    2.266|
+note<3>        |         |         |    2.449|    2.449|
+note<4>        |         |         |    3.033|    3.033|
+note<5>        |         |         |    2.527|    2.527|
+note<6>        |         |         |    2.675|    2.675|
+onoff          |         |         |    0.431|    0.431|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    2.744|    2.744|
+note<1>        |         |         |    1.426|    1.426|
+note<2>        |         |         |    1.813|    1.813|
+note<3>        |         |         |    1.996|    1.996|
+note<4>        |         |         |    2.580|    2.580|
+note<5>        |         |         |    2.074|    2.074|
+note<6>        |         |         |    2.222|    2.222|
+onoff          |         |         |   -0.022|   -0.022|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.318|    3.318|
+note<1>        |         |         |    2.000|    2.000|
+note<2>        |         |         |    2.387|    2.387|
+note<3>        |         |         |    2.570|    2.570|
+note<4>        |         |         |    3.154|    3.154|
+note<5>        |         |         |    2.648|    2.648|
+note<6>        |         |         |    2.796|    2.796|
+onoff          |         |         |    0.552|    0.552|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.061|    3.061|
+note<1>        |         |         |    1.743|    1.743|
+note<2>        |         |         |    2.130|    2.130|
+note<3>        |         |         |    2.313|    2.313|
+note<4>        |         |         |    2.897|    2.897|
+note<5>        |         |         |    2.391|    2.391|
+note<6>        |         |         |    2.539|    2.539|
+onoff          |         |         |    0.295|    0.295|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.387|    3.387|
+note<1>        |         |         |    2.069|    2.069|
+note<2>        |         |         |    2.456|    2.456|
+note<3>        |         |         |    2.639|    2.639|
+note<4>        |         |         |    3.223|    3.223|
+note<5>        |         |         |    2.717|    2.717|
+note<6>        |         |         |    2.865|    2.865|
+onoff          |         |         |    0.621|    0.621|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    4.216|    4.216|
+note<1>        |         |         |    2.898|    2.898|
+note<2>        |         |         |    3.285|    3.285|
+note<3>        |         |         |    3.468|    3.468|
+note<4>        |         |         |    4.052|    4.052|
+note<5>        |         |         |    3.546|    3.546|
+note<6>        |         |         |    3.694|    3.694|
+onoff          |         |         |    1.450|    1.450|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock note<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.943|    3.943|
+note<1>        |         |         |    2.625|    2.625|
+note<2>        |         |         |    3.012|    3.012|
+note<3>        |         |         |    3.195|    3.195|
+note<4>        |         |         |    3.779|    3.779|
+note<5>        |         |         |    3.273|    3.273|
+note<6>        |         |         |    3.421|    3.421|
+onoff          |         |         |    1.177|    1.177|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock onoff
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    8.469|         |
+note<0>        |         |         |    3.497|    3.497|
+note<1>        |         |         |    2.179|    2.179|
+note<2>        |         |         |    2.566|    2.566|
+note<3>        |         |         |    2.749|    2.749|
+note<4>        |         |         |    3.333|    3.333|
+note<5>        |         |         |    2.827|    2.827|
+note<6>        |         |         |    2.975|    2.975|
+onoff          |         |         |    0.731|    0.731|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Nov 26 14:36:38 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 103 MB
+
+
+

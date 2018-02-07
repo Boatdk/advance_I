@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\088\lab8\lab\music.ncd
+OUTFILE=D:\088\lab8\lab\music.bit
+FAMILY=Spartan3
+PART=xc3s200-4tq144
+WORKINGDIR=D:\088\lab8\lab
+LICENSE=WebPack
+USER_INFO=210759235_0_0_932

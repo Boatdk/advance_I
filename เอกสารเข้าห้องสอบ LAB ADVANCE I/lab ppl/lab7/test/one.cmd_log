@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 one.ngc one.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o one_map.ncd one.ngd one.pcf 
+par -w -intstyle ise -ol high -t 1 one_map.ncd one.ncd one.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one.twx one.ncd -o one.twr one.pcf 
+bitgen -intstyle ise -f one.ut one.ncd 
+xst -intstyle ise -ifn "J:/lab7/test/one.xst" -ofn "J:/lab7/test/one.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-tq144-4 one.ngc one.ngd  
+map -intstyle ise -p xc3s200-tq144-4 -cm area -ir off -pr off -c 100 -o one_map.ncd one.ngd one.pcf 
+par -w -intstyle ise -ol high -t 1 one_map.ncd one.ncd one.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one.twx one.ncd -o one.twr one.pcf 
+bitgen -intstyle ise -f one.ut one.ncd 
